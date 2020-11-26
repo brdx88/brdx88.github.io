@@ -31,13 +31,13 @@
 <meta property="og:description" content="A tool that detects fraud transactions." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://brdx88.github.io/post/project-5/" />
-<meta property="article:published_time" content="2020-09-09T10:58:08-04:00" />
-<meta property="article:modified_time" content="2020-09-09T10:58:08-04:00" />
+<meta property="article:published_time" content="2020-10-09T10:58:08-04:00" />
+<meta property="article:modified_time" content="2020-10-09T10:58:08-04:00" />
 <meta itemprop="name" content="Project 5: Fraudulent Transaction Detector">
 <meta itemprop="description" content="A tool that detects fraud transactions.">
-<meta itemprop="datePublished" content="2020-09-09T10:58:08-04:00" />
-<meta itemprop="dateModified" content="2020-09-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="805">
+<meta itemprop="datePublished" content="2020-10-09T10:58:08-04:00" />
+<meta itemprop="dateModified" content="2020-10-09T10:58:08-04:00" />
+<meta itemprop="wordCount" content="808">
 
 
 
@@ -197,7 +197,7 @@
       <h1 class="f1 athelas mt3 mb1">Project 5: Fraudulent Transaction Detector</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2020-09-09T10:58:08-04:00">September 9, 2020</time>
+      <time class="f6 mv4 dib tracked" datetime="2020-10-09T10:58:08-04:00">October 9, 2020</time>
 
       
       
@@ -220,18 +220,19 @@ global business competition. One of the ways is to commit financial reporting fr
 <blockquote>
 <p>-<em>paygilant.com</em></p>
 </blockquote>
-<h1 id="problems">Problems</h1>
+<h2 id="problems">Problems</h2>
 <p>A business can lose a significant amount of assets due to fraud. At an extreme level, the effects of fraud can even shut down a company. Based on this dataset, we could find:</p>
 <ol>
 <li>Does type of transaction affect the fraud transaction?</li>
 <li>Are transactions flagged as fraud is the real fraud transaction?</li>
 <li>Can we predict the transaction which has a fraud pattern?</li>
 </ol>
-<h1 id="goals">Goals</h1>
+<h2 id="goals">Goals</h2>
 <ol>
 <li>Find out the correlation between fraud transaction and type of transaction, flagged as fraud, amount of transaction, transaction&rsquo;s timestamp, and anything.</li>
 <li>Make a Machine Learning model to predict whether the transaction is fraud or not.</li>
 </ol>
+<h2 id="exploratory-data-analysis">Exploratory Data Analysis</h2>
 <p><figure>
     <img src="https://brdx88.github.io/images/1.png"/> 
 </figure>
@@ -248,7 +249,7 @@ global business competition. One of the ways is to commit financial reporting fr
     <img src="https://brdx88.github.io/images/4.png"/> 
 </figure>
 </p>
-<h1 id="conclusions">Conclusions</h1>
+<h2 id="conclusions">Conclusions</h2>
 <ol>
 <li>
 <p>The Fraudulent in this dataset is obviously not balance 99% : 1%, but at least we know that most transactions are safe. However maybe it&rsquo;s only 1% transactions which fraud, but when it comes to &lsquo;amount&rsquo;, there are $1,467,967 are fraud (89.2%) and $178,197.0 are not fraud (10.8%).</p>
@@ -300,7 +301,7 @@ This <code>isFlaggedFraud</code> feature is so irrelevant for us to see which tr
 <p>Our Machine Learning model using Xtreme Gradient Boosting algorithm can predict fraud transaction with Recall metrics: 0.99 of 1.0 because in this case we are going to reduce the False Negative (the actual is fraud, but model predicts not fraud).</p>
 </li>
 </ol>
-<h1 id="recommendations">Recommendations</h1>
+<h2 id="recommendations">Recommendations</h2>
 <ol>
 <li>Don&rsquo;t use <code>isFlaggedFraud</code> feature again.</li>
 <li>Otherwise, use our Machine Learning model with the best Recall metrics is 0.99 of 1.00. Our model can predict whether the transaction is fraud or not with minimum error.</li>

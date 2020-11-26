@@ -8,9 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://brdx88.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Project 6: Optimize P2P Lending Company&#39;s Profit</title>
+      <link>https://brdx88.github.io/post/project-6/</link>
+      <pubDate>Wed, 25 Nov 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://brdx88.github.io/post/project-6/</guid>
+      <description>LendingClub (LC) is one of the biggest P2P Lending platforms in America. Since 2007, they’ve been bringing borrowers and investors together, transforming the way people access to credit. Over the last 10 years, they&amp;rsquo;ve helped millions of people take control of their debt, grow their small businesses, and invest for the future. As a Borrower, you could loan up to $ 40,000. As an Investor (Lender), you could invest your money at the minimum amount, $ 25.</description>
+    </item>
+    
+    <item>
       <title>Project 5: Fraudulent Transaction Detector</title>
       <link>https://brdx88.github.io/post/project-5/</link>
-      <pubDate>Wed, 09 Sep 2020 10:58:08 -0400</pubDate>
+      <pubDate>Fri, 09 Oct 2020 10:58:08 -0400</pubDate>
       
       <guid>https://brdx88.github.io/post/project-5/</guid>
       <description>Fraud has become a scandal in financial reporting. Evidently, many large companies were dragged into fraud cases such as SK Global, Vivendi, Enron, Parmalat, Adelphia, Cendant, WorldCom, and Royal Ahold (Albrecht, et al., 2008). Companies are caught up in the situation of business globalization which has triggered intense business competition. As a result, companies are looking for any way to keep their business operating properly and even become winners in global business competition.</description>
@@ -19,11 +28,21 @@
     <item>
       <title>Project 4: Predicting House Price for the Best Investment</title>
       <link>https://brdx88.github.io/post/project-4/</link>
-      <pubDate>Tue, 25 Aug 2020 11:00:59 -0400</pubDate>
+      <pubDate>Sun, 20 Sep 2020 11:00:59 -0400</pubDate>
       
       <guid>https://brdx88.github.io/post/project-4/</guid>
       <description>Home is a primary basic need, everyone needs a house for shelter every day. However, for those who have their needs met, some people use the money to invest. One of the investment instruments is property, especially houses. This dataset provides information on the number of bedrooms, bathrooms, conditions, views, building area, land area, basement area, and of course prices. The dataset can be found on Kaggle.
 Problems Many people want to start investing but don&amp;rsquo;t know where to invest.</description>
+    </item>
+    
+    <item>
+      <title>Project 3: Predicting Customer Interest in Vehicle Insurance</title>
+      <link>https://brdx88.github.io/post/project-3/</link>
+      <pubDate>Tue, 21 Jul 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://brdx88.github.io/post/project-3/</guid>
+      <description>The cllient is an Insurance company that has provided Health Insurance to its customers now they need your help in building a model to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company. This dataset can be found on Kaggle.
+An insurance policy is an arrangement by which a company undertakes to provide a guarantee of compensation for specified loss, damage, illness, or death in return for the payment of a specified premium.</description>
     </item>
     
     <item>
@@ -44,16 +63,6 @@ We found this data set on Kaggle but the data is originally from the article Hot
       <guid>https://brdx88.github.io/post/project-1/</guid>
       <description>The bank is an institution for us to do economic activities as customers. Many customers decide to quit and move to another bank for their own reasons. Are bank services a factor? Or an attractive promo or program that makes customers loyal?
 Problems:  What is the reason why the customer wants to stop saving at the bank concerned? Does CC ownership affect account termination? What effect does CreditScore have on account termination?</description>
-    </item>
-    
-    <item>
-      <title>Project 3: Predicting Customer Interest in Vehicle Insurance</title>
-      <link>https://brdx88.github.io/post/project-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://brdx88.github.io/post/project-3/</guid>
-      <description>The cllient is an Insurance company that has provided Health Insurance to its customers now they need your help in building a model to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company. This dataset can be found on Kaggle.
-An insurance policy is an arrangement by which a company undertakes to provide a guarantee of compensation for specified loss, damage, illness, or death in return for the payment of a specified premium.</description>
     </item>
     
   </channel>
