@@ -4,21 +4,35 @@
   
   <url>
     <loc>https://brdx88.github.io/</loc>
-    <lastmod>2020-09-09T10:58:08-04:00</lastmod>
+    <lastmod>2020-11-25T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://brdx88.github.io/post/project-6/</loc>
+    <lastmod>2020-11-25T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://brdx88.github.io/post/project-5/</loc>
-    <lastmod>2020-09-09T10:58:08-04:00</lastmod>
+    <lastmod>2020-10-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://brdx88.github.io/post/project-4/</loc>
-    <lastmod>2020-08-25T11:00:59-04:00</lastmod>
+    <lastmod>2020-09-20T11:00:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://brdx88.github.io/post/project-3/</loc>
+    <lastmod>2020-07-21T11:00:59-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -58,12 +72,6 @@
   
   <url>
     <loc>https://brdx88.github.io/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://brdx88.github.io/post/project-3/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
