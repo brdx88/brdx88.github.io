@@ -1,0 +1,428 @@
+/* General styling */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00112a;  /* Default dark blue background */
+    overflow-x: hidden;
+    transition: background 0.2s ease-in-out;
+
+    /* default text color and size */
+    color: rgba(255, 255, 255, 0.7); /* Grey with 70% opacity */
+    font-size: 1em; /* Small size, adjust as needed */
+    line-height: 1.6; /* Makes the text more readable */
+    margin-bottom: 1.5em; /* Add spacing between paragraphs */
+}
+
+.description {
+    margin-right: 30%;
+}
+
+/* Heading styles (h1-h5) with solid white color */
+h3, h4, h5 {
+    color: #ffffff; /* Solid white */
+    font-size: 1.5em; /* Adjust size to suit your design */
+}
+
+h2 {
+    font-size: 1.2em; /* Adjust size to suit your design */
+    line-height: 1.6; /* Makes the text more readable */
+}
+
+/* Bold text with solid white */
+strong, b {
+    color: #ffffffdd;
+    /* font-weight: bold; */
+}
+
+/* Main container: flex layout */
+.main-container {
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+}
+
+/* Fixed Left Sidebar */
+.fixed-left {
+    width: 45vw;  /* Take up 45% of viewport width */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 50px;
+    z-index: 10;
+}
+
+.fixed-left .profile-info {
+    text-align: left;
+}
+
+.fixed-left h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.6; /* Makes the text more readable */
+}
+
+.fixed-left p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.7); /* Grey with 70% opacity */;
+    line-height: 1.6; /* Makes the text more readable */
+}
+
+.fixed-left .nav-link {
+    color: rgba(255, 255, 255, 0.7); /* Grey with 70% opacity */
+    line-height: 1.6; /* Makes the text more readable */
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.fixed-left .nav-link:hover {
+    color: #1abc9c;
+}
+
+/* Scrollable Right Content */
+.scrollable-content {
+    margin-left: 40vw; /* Adjust margin based on the sidebar's width */
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* Project Cards */
+.project-card {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card .card-body {
+    padding: 20px;
+}
+
+/* Container for Projects */
+.project-container {
+    /* background-color: #2c2c2c; */
+    padding: 20px;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    position: relative;
+    margin: 20px 0;
+
+    /* ensure the pseudo-element doesn't overflow beyond the container's border */
+    overflow: hidden;
+}
+
+/* Project Link Styling */
+.project-link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    position: relative;
+}
+
+/* Header (Title) Styling */
+.project-title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+/* .year-title {
+    font-size: 0.8em;
+} */
+
+/* Description Styling */
+.project-description {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7); /* Grey with 70% opacity */
+}
+
+/* Arrow Icon Styling */
+.arrow-icon {
+    display: inline-block;
+    margin-left: 10px;
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect on Project Container */
+.project-container:hover {
+    transform: translateY(-5px); /* Small upward shift */
+    box-shadow: 0 8px 20px rgba(36, 36, 36, 0.3); /* Border-like shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* pseudo-element, takes up the full width and height of the container */
+.project-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0); /* Initially transparent */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    z-index: 0; /* Ensure it's below any content inside the container */
+}
+
+/* background becomes a semi-transparent white */
+.project-container:hover::before {
+    background-color: rgba(255, 255, 255, 0.05); /* Semi-transparent white when hovered */
+}
+
+/* Change Header Color on Hover */
+.project-container:hover .project-title {
+    color: #1abc9c; /* Teal color */
+}
+
+/* Show and Animate Arrow Icon */
+.project-container:hover .arrow-icon {
+    opacity: 1;
+    transform: translate(5px, -5px); /* Move diagonally to the top-right */
+}
+
+
+
+
+
+/* Styling for the section headers */
+.section-header {
+    position: sticky;
+    top: 0;
+    background-color: #222831;  /* Same as your background color */
+    z-index: 5;
+    padding: 10px 0;
+    text-align: center;
+
+    /* Add a bottom border to make the transition between sections clear */
+    /* border-bottom: 2px solid #1abc9c;   */
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 1.2rem;
+    margin-left: 2.5vw;
+    text-align: left; 
+    color: #fff;
+    transition: font-size 0.3s, color 0.3s;  /* Smooth transition effect */
+
+}
+
+/* Shrink the header a bit when sticky */
+.section-header.sticky-active .section-title {
+    font-size: 1.75rem;
+    /* color: #1abc9c; */
+}
+
+/* ======================================= */
+
+/* Base styling for nav links */
+.custom-link {
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;  /* Add some padding for spacing */
+    /* transition: background-color 0.3s ease; */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 8px;  /* Smooth corner radius */
+}
+
+/* Hover effect to change background color */
+.custom-link:hover {
+    color: #ffffff;
+    background-color: #122B3C;
+
+}
+
+/* Active state with a permanent background color */
+.custom-link.active {
+    font-weight: bold;
+    background-color: #122B3C;  /* Keep the background color for active link */
+    color: #1abc9c;
+    border-radius: 8px;  /* Smooth corner radius on active link as well */
+}
+
+
+/* ======================================= */
+
+/* Tech Stack Styling */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    gap: 10px; /* Space between the tech items */
+    justify-content: left; /* Center the tech items */
+    margin-top: 20px;
+}
+
+.tech-item {
+    padding: 7.5px 10px; /* Space inside each tech stack */
+    border-radius: 20px; /* Rounded rectangle shape */
+    background-color: #122B3C; /* Background color for each tech item */
+    color: #1abc9c; /* Text color */
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: inline-block;
+    white-space: nowrap; /* Prevents the text from breaking into a new line */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* .tech-item:hover {
+    background-color: #1abc9c; 
+    transform: translateY(-3px); 
+} */
+
+
+/* Spacious Footer Icon */
+.footer_icon {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 1.2rem; /* Adjust icon size if needed */
+    margin-right: 15px; /* Add space between icons */
+}
+
+.footer_icon:last-child {
+    margin-right: 0; /* No margin after the last icon */
+}
+
+.footer_icon:hover {
+    color: #ffffff;
+}
+
+/* Ensure project containers are clickable */
+.project-container {
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 0.7rem;
+}
+
+
+/* Hide section headers on desktop resolution (above 992px) */
+@media (min-width: 993px) {
+    .section-header {
+        display: none;
+    }
+}
+
+/* Responsive behavior: Top-Down Layout for Tablets and Mobiles */
+@media (max-width: 992px) {
+    .project-container {
+        width: 100%; /* Ensures the content spans full width */
+        max-width: 1200px; /* Optional: Set a max width if desired */
+        margin: 0 auto; /* Centers the content */
+        padding: 0 15px; /* Optional padding to give content some space */ 
+    }
+
+    .nav .flex-column{
+        display: none;
+    }
+
+    .fixed-left .profile-info {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .main-container {
+        flex-direction: column; /* Turn into vertical stack */
+    }
+
+    .fixed-left {
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .scrollable-content {
+        margin-left: 0;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        color: #fff;
+        transition: font-size 0.3s, color 0.3s;
+    }
+
+    .section-header {
+        display: block;
+        position: sticky;
+        top: 0;
+        background-color: #00112ada;  /* Background to match your design */
+        z-index: 5;
+        padding: 10px 0;
+        text-align: center;
+        /* border-bottom: 2px solid #1abc9c; */
+        transition: all 0.3s ease;
+    }
+
+    /* When header becomes sticky, it changes size/color */
+    .section-header.sticky-active .section-title {
+        font-size: 1.8rem;
+        /* color: #1abc9c; */
+    }
+}
+
+@media (max-width: 768px) {
+    .project-container {
+        width: 100%; /* Ensures the content spans full width */
+        max-width: 1200px; /* Optional: Set a max width if desired */
+        margin: 0 auto; /* Centers the content */
+        padding: 0 15px; /* Optional padding to give content some space */    
+    }
+    .nav .flex-column{
+        display: none;
+    }
+
+    .fixed-left .profile-info {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .fixed-left h1 {
+        font-size: 2rem;
+    }
+
+    .fixed-left p {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+        color: #fff;
+        transition: font-size 0.3s, color 0.3s;
+    }
+
+    .section-header {
+        display: block;
+        position: sticky;
+        top: 0;
+        background-color: #00112ada;  /* Background to match your design */
+        z-index: 5;
+        padding: 10px 0;
+        text-align: center;
+        /* border-bottom: 2px solid #1abc9c; */
+        transition: all 0.3s ease;
+    }
+
+    /* When header becomes sticky, it changes size/color */
+    .section-header.sticky-active .section-title {
+        font-size: 1.4rem;
+        /* color: #1abc9c; */
+    }
+
+    /* Remove Navbar on Tablet & Mobile */
+    .nav-link {
+        display: none;
+    }
+}
