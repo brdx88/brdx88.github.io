@@ -324,6 +324,10 @@ strong, b {
         padding: 0 15px; /* Optional padding to give content some space */ 
     }
 
+    .project-container:hover {
+        transform: translateY(0px); /* Small upward shift */
+    }
+    
     .nav .flex-column{
         display: none;
     }
@@ -380,6 +384,11 @@ strong, b {
         margin: 0 auto; /* Centers the content */
         padding: 0 15px; /* Optional padding to give content some space */    
     }
+
+    .project-container:hover {
+        transform: translateY(0px); /* Small upward shift */
+    }
+
     .nav .flex-column{
         display: none;
     }
