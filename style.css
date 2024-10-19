@@ -308,11 +308,6 @@ strong, b {
     margin-bottom: 0px;
 }
 
-h5 {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 0.4rem;
-}
-
 /* Hide section headers on desktop resolution (above 992px) */
 @media (min-width: 993px) {
     .section-header {
