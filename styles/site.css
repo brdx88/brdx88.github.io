@@ -297,6 +297,10 @@ a {
     box-shadow: var(--shadow);
 }
 
+.callout--compact {
+    padding: 1.7rem 2rem;
+}
+
 .callout__actions {
     display: flex;
     flex-wrap: wrap;
