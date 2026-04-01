@@ -6,13 +6,13 @@
 - Review consultancy copy for final positioning
 - Confirm portfolio content is preserved as intended
 - Confirm email and LinkedIn links are correct
-- Confirm canonical domain is `https://brianic.com`
+- Confirm canonical domain is `https://www.brianic.com`
 
 ## Vercel setup
 
 - Import the repository into Vercel
-- Set production domain to `brianic.com`
-- Add `www` redirect if desired
+- Set production domain to `www.brianic.com`
+- Redirect `brianic.com` to `www.brianic.com`
 - Confirm HTTPS is active
 - Confirm the correct primary domain is selected
 

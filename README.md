@@ -14,6 +14,7 @@ This project is evolving from a single-page portfolio into a multi-page personal
 - Default hosting target: Vercel
 - Fallback hosting target: Netlify
 - Custom domain will be used
+- Preferred primary domain: `https://www.brianic.com`
 - Analytics should be lightweight and dashboard-only
 - Portfolio content should be preserved in substance during the redesign
 

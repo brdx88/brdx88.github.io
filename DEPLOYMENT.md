@@ -4,7 +4,8 @@
 
 - Primary hosting: Vercel
 - Fallback hosting: Netlify
-- Production domain: `brianic.com`
+- Production domain: `www.brianic.com`
+- Redirect domain: `brianic.com` -> `www.brianic.com`
 
 ## Vercel setup notes
 
@@ -28,7 +29,8 @@ This site is plain HTML/CSS/JS, so Vercel can serve it directly.
 
 - Add `brianic.com` and `www.brianic.com` in the Vercel project domain settings.
 - Update your DNS records at your domain registrar to point to Vercel.
-- Keep only one canonical primary production domain in Vercel.
+- Set `www.brianic.com` as the primary production domain.
+- Redirect apex `brianic.com` to `www.brianic.com`.
 
 ### 4. Web Analytics
 

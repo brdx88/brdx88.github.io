@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://brianic.com/sitemap.xml
+Sitemap: https://www.brianic.com/sitemap.xml
