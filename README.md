@@ -49,6 +49,8 @@ Read these first before making major changes:
 - `STYLE_GUIDE.md`
 - `DECISIONS.md`
 - `TODO.md`
+- `DEPLOYMENT.md`
+- `LAUNCH_CHECKLIST.md`
 
 ## Content and implementation rules
 
@@ -64,3 +66,8 @@ Read these first before making major changes:
 - Build homepage, consultancy page, and contact page
 - Add responsive site navigation
 - Add SEO improvements and lightweight analytics
+
+## Deployment notes
+
+- `vercel.json` contains minimal Vercel config for trailing slash consistency and a few safe response headers.
+- See `DEPLOYMENT.md` for Vercel setup and `LAUNCH_CHECKLIST.md` for launch verification.
