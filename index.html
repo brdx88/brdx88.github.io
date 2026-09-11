@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brian Ivan Cusuanto — Data Engineer</title>
+<meta name="description" content="Data Engineer with 5+ years across banking and property tech. Batch and real-time pipelines on Kafka, Spark, dbt, BigQuery and Airflow/Windmill processing 124M+ records daily.">
+<link rel="canonical" href="https://brianic.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://brianic.com/">
+<meta property="og:title" content="Brian Ivan Cusuanto — Data Engineer">
+<meta property="og:description" content="Batch and real-time data pipelines processing 124M+ records daily. Banking and property tech.">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0b0e14" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230f172a'/><text x='50' y='68' font-size='58' font-family='monospace' font-weight='700' fill='%2338bdf8' text-anchor='middle'>B</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <a class="topbar__brand" href="#top">Brian Ivan Cusuanto</a>
+  <div class="topbar__actions">
+    <button class="icon-btn js-theme" type="button" aria-label="Toggle color theme">
+      <span class="icon-btn__glyph" aria-hidden="true"></span>
+    </button>
+    <button class="icon-btn" id="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="burger" aria-hidden="true"></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" hidden>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="shell" id="top">
+
+  <aside class="sidebar">
+    <div class="sidebar__inner">
+      <p class="eyebrow">Data Engineer · Jakarta, ID</p>
+      <h1 class="sidebar__name">Brian Ivan<br>Cusuanto</h1>
+      <p class="sidebar__pitch">I build batch and real-time pipelines that stay up — Kafka, Spark, dbt, BigQuery, Airflow/Windmill — moving 124M+ records a day.</p>
+
+      <nav class="sidenav" aria-label="Sections">
+        <a href="#about"><span>01</span> About</a>
+        <a href="#experience"><span>02</span> Experience</a>
+        <a href="#projects"><span>03</span> Projects</a>
+        <a href="#skills"><span>04</span> Skills</a>
+        <a href="#contact"><span>05</span> Contact</a>
+      </nav>
+
+      <div class="sidebar__links">
+        <div class="social">
+          <a href="https://www.linkedin.com/in/brianic/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/brdx88" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:brian.ic@outlook.com">Email</a>
+        </div>
+        <button class="icon-btn icon-btn--desk js-theme" type="button" aria-label="Toggle color theme">
+          <span class="icon-btn__glyph" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="content" id="main">
+
+    <section class="hero reveal">
+      <h2 class="hero__line">Data pipelines that survive production.</h2>
+      <p class="hero__sub">5+ years across banking and property tech, regularly trusted with architecture decisions and cross-team leadership. Batch and streaming, from raw source to analytics-ready — with CI/CD wired in.</p>
+      <ul class="metrics">
+        <li><strong>124M+</strong><span>records / day</span></li>
+        <li><strong>75%</strong><span>infra cost cut</span></li>
+        <li><strong>99.8%</strong><span>pipeline reliability</span></li>
+        <li><strong>35K</strong><span>txn / minute streaming</span></li>
+      </ul>
+    </section>
+
+    <section id="about" class="section reveal">
+      <h2 class="section__title"><span>01</span> About</h2>
+      <div class="prose">
+        <p>Data Engineer with <strong>5+ years</strong> in banking and property tech, owning architecture decisions and leading delivery across teams. I design medallion-layered warehouses, real-time streaming pipelines, and orchestration that people can debug in minutes instead of hours.</p>
+        <p>Most of my work is measured in what it removed: cost, latency, manual steps, and 3 a.m. pages.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <h2 class="section__title"><span>02</span> Experience</h2>
+
+      <ol class="timeline">
+        <li class="job">
+          <p class="job__when">May 2026 — Present</p>
+          <h3 class="job__role">Data Engineer</h3>
+          <p class="job__org">UNBLK Pte Ltd (Ohmyhome) · Singapore, remote</p>
+          <ul class="job__points">
+            <li>Led orchestration migration from Cloud Composer to Windmill, cutting infra cost <strong>75%</strong> (US$1,200 → US$300/mo) and consolidating scattered DAGs into one execution model.</li>
+            <li>Fixed a broken home-valuation pipeline, restoring completeness from ~2 to <strong>38 rows/day (~19x)</strong> and improving downstream valuation accuracy.</li>
+            <li>Re-architected fragmented sources into a dbt-modeled BigQuery medallion warehouse (5 datasets), taking worst-case root-cause debugging from <strong>8 hours to under 15 minutes</strong>.</li>
+            <li>Rebuilt MATCH lead-matching lineage in 4 days: <strong>113 → 69 stages</strong>, downstream consumers from a dozen+ to 4.</li>
+          </ul>
+          <p class="job__stack">Windmill · dbt · BigQuery · Python · curl_cffi · GCP</p>
+        </li>
+
+        <li class="job">
+          <p class="job__when">Sep 2025 — Mar 2026</p>
+          <h3 class="job__role">Data Engineer — Big Data, Streaming &amp; Analytics</h3>
+          <p class="job__org">Bank Negara Indonesia · Jakarta</p>
+          <ul class="job__points">
+            <li>Shipped a production Kafka + Spark Streaming pipeline handling <strong>25–35K transactions/minute</strong>, with schema registry enforcing schema evolution and data contracts.</li>
+            <li>Delivered a unified datamart for 20+ business and campaign reports, cutting query turnaround from a full day to <strong>under 5 minutes</strong> over <strong>134M+ daily records</strong>.</li>
+            <li>Built HC data architecture consolidating <strong>17+ sources</strong> into a 5-layer medallion datamart, 10+ entity tables for AI-ready analytics on ~36K employees.</li>
+            <li>Held production Spark workflows at <strong>99.8% reliability</strong> while improving job performance up to <strong>92%</strong>.</li>
+          </ul>
+          <p class="job__stack">Kafka · Spark Streaming · PySpark · Hive/Impala · Schema Registry</p>
+        </li>
+
+        <li class="job">
+          <p class="job__when">May 2023 — Nov 2025</p>
+          <h3 class="job__role">Data Engineer — Lead Automation &amp; Campaign Analytics</h3>
+          <p class="job__org">Bank Negara Indonesia · Jakarta</p>
+          <ul class="job__points">
+            <li>Automated the sales-lead ETL end to end (passworded Excel, FTP delivery, email alerts), taking processing from <strong>2 hours to under 5 minutes</strong>.</li>
+            <li>Optimized fuzzy matching on <strong>2M+ records</strong> with RapidFuzz + multiprocessing: accuracy <strong>+30%</strong>, runtime <strong>−50%</strong>.</li>
+            <li>Built a self-healing SQL retry layer — failure resolution time <strong>−80%</strong>, <strong>100% query success</strong> without manual watching.</li>
+            <li>Owned delivery and mentored junior and vendor engineers to shorten onboarding.</li>
+          </ul>
+          <p class="job__stack">Python · PySpark · RapidFuzz · SQL · Bash</p>
+        </li>
+
+        <li class="job">
+          <p class="job__when">May 2021 — Apr 2023</p>
+          <h3 class="job__role">Data Engineer — Data Marts &amp; Query Optimization</h3>
+          <p class="job__org">Bank Negara Indonesia · Jakarta</p>
+          <ul class="job__points">
+            <li>Automated daily/weekly/monthly datamart refreshes via CDSW — <strong>100% on-time delivery</strong>, zero manual runs.</li>
+            <li>Partitioned Hive/Impala tables on Parquet: <strong>3x</strong> faster queries on less storage.</li>
+            <li>Tuned slow SQL across Hadoop, cutting execution time up to <strong>70%</strong> and serving 10+ business domains.</li>
+          </ul>
+          <p class="job__stack">Hive · Impala · Parquet · PySpark · Cloudera</p>
+        </li>
+      </ol>
+
+      <p class="prior">Before data: civil engineering &amp; construction — quantity surveyor, structural/finishing inspector, drafter (2016–2020) · STEM teacher, part-time (2013–2014).</p>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <h2 class="section__title"><span>03</span> Projects</h2>
+      <div class="cards">
+
+        <a class="card" href="https://github.com/brdx88/elt_loan_risk_pyspark_airflow_dbt_gcp_docker" target="_blank" rel="noopener">
+          <h3>Banking Loan Risk ELT</h3>
+          <p>How do banks screen millions of loan records daily? End-to-end pipeline from raw files to risk-ready tables.</p>
+          <p class="card__stack">Airflow · PySpark · dbt · BigQuery · Docker</p>
+        </a>
+
+        <a class="card" href="https://github.com/brdx88/cicd_cloudcomposer_dbt_api_postgres_gcs_bigquery_slack" target="_blank" rel="noopener">
+          <h3>E-Commerce ELT on Cloud Composer</h3>
+          <p>Production-shaped Airflow 2.x pipeline with CI/CD and Slack alerting, runnable end to end.</p>
+          <p class="card__stack">Cloud Composer · dbt · BigQuery · GitHub Actions</p>
+        </a>
+
+        <a class="card" href="https://github.com/brdx88/elt_ecommerce_sales_docker_airflow_dbt_bigquery_postgres_api" target="_blank" rel="noopener">
+          <h3>Three-Source Sales ELT</h3>
+          <p>Extracts from API, Postgres and Cloud Storage into one modeled sales summary.</p>
+          <p class="card__stack">Airflow · Docker · dbt · GCP</p>
+        </a>
+
+        <a class="card" href="https://github.com/brdx88/banking-data-streaming-oltp-olap" target="_blank" rel="noopener">
+          <h3>Banking Streaming OLTP → OLAP</h3>
+          <p>Real-time transaction stream landed into analytics storage without breaking schema contracts.</p>
+          <p class="card__stack">Kafka · Spark Streaming · Schema Registry</p>
+        </a>
+
+        <a class="card" href="https://github.com/brdx88/assign-sales-round-robin" target="_blank" rel="noopener">
+          <h3>Massive Lead Assignment</h3>
+          <p>Distributes 100K–1M leads across sales reps by geography and customer criteria, fairly, round-robin.</p>
+          <p class="card__stack">Pandas · PySpark · Hive · CML</p>
+        </a>
+
+        <a class="card" href="https://github.com/brdx88/fast-string-matching-with-large-dataset" target="_blank" rel="noopener">
+          <h3>High-Speed Fuzzy Matching</h3>
+          <p>Millions of messy name records matched in parallel instead of overnight.</p>
+          <p class="card__stack">RapidFuzz · Multiprocessing · Python</p>
+        </a>
+
+      </div>
+      <p class="more"><a href="https://github.com/brdx88?tab=repositories" target="_blank" rel="noopener">All repositories on GitHub</a></p>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <h2 class="section__title"><span>04</span> Skills</h2>
+      <div class="skills">
+        <div class="skillgroup"><h3>Languages</h3><p>Python · SQL · Bash</p></div>
+        <div class="skillgroup"><h3>Orchestration</h3><p>Airflow · Windmill · dbt · Dagster · Cloud Composer · Cron</p></div>
+        <div class="skillgroup"><h3>Streaming &amp; Big Data</h3><p>Kafka · Spark Streaming · PySpark · Hadoop · Hive · Impala · HDFS · Databricks</p></div>
+        <div class="skillgroup"><h3>Cloud &amp; Warehouse</h3><p>BigQuery · Cloud Storage · Cloud Run · GKE · Vertex AI · Snowflake · Medallion architecture · Parquet · Partitioning</p></div>
+        <div class="skillgroup"><h3>DevOps &amp; CI/CD</h3><p>Docker · Kubernetes · GitHub Actions · Bitbucket Pipelines · Linux · Git</p></div>
+        <div class="skillgroup"><h3>Databases</h3><p>PostgreSQL · MySQL · Oracle Exadata · Teradata · HiveQL · ImpalaQL</p></div>
+        <div class="skillgroup"><h3>Scraping &amp; Automation</h3><p>curl_cffi (anti-bot) · Scrapy · BeautifulSoup · Playwright · Selenium · RapidFuzz</p></div>
+      </div>
+      <p class="edu"><strong>Education</strong> — Data Science &amp; Machine Learning, Purwadhika Digital Technology School (2020) · B.Eng. Civil Engineering, Pembangunan Jaya University (2013–2017)</p>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <h2 class="section__title"><span>05</span> Contact</h2>
+      <p class="prose">Open to data engineering work — streaming, warehouse design, orchestration rescue missions.</p>
+      <div class="contact">
+        <a class="btn btn--primary" href="mailto:brian.ic@outlook.com">brian.ic@outlook.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/brianic/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/brdx88" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <footer class="footer">Jakarta, Indonesia · <span id="year">2026</span></footer>
+    </section>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
