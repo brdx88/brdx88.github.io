@@ -1,6 +1,6 @@
 # brianic.com
 
-Personal portfolio of Brian Ivan Cusuanto — Data Engineer. Static site, no build step: plain HTML, CSS and vanilla JavaScript.
+Personal portfolio of Brian Cusuanto — Data Engineer. Static site, no build step: plain HTML, CSS and vanilla JavaScript.
 
 ## Files
 
