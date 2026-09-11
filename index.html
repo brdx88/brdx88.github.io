@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Brian Ivan Cusuanto — Data Engineer</title>
+<title>Brian Cusuanto — Data Engineer</title>
 <meta name="description" content="Data Engineer with 5+ years across banking and property tech. Batch and real-time pipelines on Kafka, Spark, dbt, BigQuery and Airflow/Windmill processing 124M+ records daily.">
 <link rel="canonical" href="https://brianic.com/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://brianic.com/">
-<meta property="og:title" content="Brian Ivan Cusuanto — Data Engineer">
+<meta property="og:title" content="Brian Cusuanto — Data Engineer">
 <meta property="og:description" content="Batch and real-time data pipelines processing 124M+ records daily. Banking and property tech.">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#0b0e14" media="(prefers-color-scheme: dark)">
@@ -23,7 +23,7 @@
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="topbar">
-  <a class="topbar__brand" href="#top">Brian Ivan Cusuanto</a>
+  <a class="topbar__brand" href="#top">Brian Cusuanto</a>
   <div class="topbar__actions">
     <button class="icon-btn js-theme" type="button" aria-label="Toggle color theme">
       <span class="icon-btn__glyph" aria-hidden="true"></span>
@@ -46,7 +46,7 @@
   <aside class="sidebar">
     <div class="sidebar__inner">
       <p class="eyebrow">Data Engineer · Jakarta, ID</p>
-      <h1 class="sidebar__name">Brian Ivan<br>Cusuanto</h1>
+      <h1 class="sidebar__name">Brian<br>Cusuanto</h1>
       <p class="sidebar__pitch">I build batch and real-time pipelines that stay up — Kafka, Spark, dbt, BigQuery, Airflow/Windmill — moving 124M+ records a day.</p>
 
       <nav class="sidenav" aria-label="Sections">
@@ -96,20 +96,7 @@
 
       <ol class="timeline">
         <li class="job">
-          <p class="job__when">May 2026 — Present</p>
-          <h3 class="job__role">Data Engineer</h3>
-          <p class="job__org">UNBLK Pte Ltd (Ohmyhome) · Singapore, remote</p>
-          <ul class="job__points">
-            <li>Led orchestration migration from Cloud Composer to Windmill, cutting infra cost <strong>75%</strong> (US$1,200 → US$300/mo) and consolidating scattered DAGs into one execution model.</li>
-            <li>Fixed a broken home-valuation pipeline, restoring completeness from ~2 to <strong>38 rows/day (~19x)</strong> and improving downstream valuation accuracy.</li>
-            <li>Re-architected fragmented sources into a dbt-modeled BigQuery medallion warehouse (5 datasets), taking worst-case root-cause debugging from <strong>8 hours to under 15 minutes</strong>.</li>
-            <li>Rebuilt MATCH lead-matching lineage in 4 days: <strong>113 → 69 stages</strong>, downstream consumers from a dozen+ to 4.</li>
-          </ul>
-          <p class="job__stack">Windmill · dbt · BigQuery · Python · curl_cffi · GCP</p>
-        </li>
-
-        <li class="job">
-          <p class="job__when">Sep 2025 — Mar 2026</p>
+          <p class="job__when">Sep 2025 — Present</p>
           <h3 class="job__role">Data Engineer — Big Data, Streaming &amp; Analytics</h3>
           <p class="job__org">Bank Negara Indonesia · Jakarta</p>
           <ul class="job__points">
@@ -153,6 +140,30 @@
     <section id="projects" class="section reveal">
       <h2 class="section__title"><span>03</span> Projects</h2>
       <div class="cards">
+
+        <div class="card card--static">
+          <h3>Orchestration Migration: Composer → Windmill</h3>
+          <p>Consolidated scattered Airflow DAGs into one Windmill execution model, cutting orchestration infra cost 75% (US$1,200 → US$300/mo).</p>
+          <p class="card__stack">Windmill · dbt · BigQuery · Python · GCP</p>
+        </div>
+
+        <div class="card card--static">
+          <h3>Property Valuation Pipeline Rescue</h3>
+          <p>Diagnosed and rebuilt a broken home-valuation ingest — completeness from ~2 to 38 rows/day (~19x), lifting downstream valuation accuracy.</p>
+          <p class="card__stack">Python · curl_cffi (anti-bot) · BigQuery · Windmill</p>
+        </div>
+
+        <div class="card card--static">
+          <h3>Medallion Warehouse on BigQuery</h3>
+          <p>Re-architected fragmented sources into a dbt-modeled 5-dataset medallion warehouse; worst-case root-cause debugging from 8 hours to under 15 minutes.</p>
+          <p class="card__stack">dbt · BigQuery · Medallion architecture</p>
+        </div>
+
+        <div class="card card--static">
+          <h3>Lead-Matching Lineage Rebuild</h3>
+          <p>Untangled a MATCH lead-matching lineage in 4 days: 113 → 69 stages, downstream consumers from a dozen+ down to 4.</p>
+          <p class="card__stack">dbt · BigQuery · SQL</p>
+        </div>
 
         <a class="card" href="https://github.com/brdx88/elt_loan_risk_pyspark_airflow_dbt_gcp_docker" target="_blank" rel="noopener">
           <h3>Banking Loan Risk ELT</h3>
